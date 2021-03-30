@@ -1,7 +1,7 @@
 plate_height = 4;
 
 difference(){
-    roundedcube (180, 22, plate_height+1, 3);
+    roundedcube (180, 22, plate_height, 3);
     // mid hole
     translate([9.5,11,0]) cylinder(plate_height+1,4.5,4.5);
     //left hole
